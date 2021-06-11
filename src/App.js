@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Board from './Components/Board';
 
 function App() {
 
@@ -17,8 +18,8 @@ xhr.send();
   
   
   return (
-    <div className="App">
-      
+    <div className="App" id="quote-box">
+      <Board />
     </div>
   );
 }
